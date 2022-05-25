@@ -1,54 +1,82 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Nunito', sans-serif;
-  
+/* #00FFAB
+#14C38E
+#B8F1B0
+#E3FCBF */
+
+#title {
+    background-color: #14C38E;
+    
+
 }
-.menu-bar {
-    
-    background-image: linear-gradient(-90deg, #d38312 , #a83279);
-    
-    
+
+.container-fluid{
+    padding: 3% 15%;
 }
-.nav-link {
-    color: white;
-    font-size: 20px;
+h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    margin: 3px;
+    font-size: 3rem;
+    line-height: 1.5;
 }
-.navbar-nav {
-    margin-right: 10px;
-    text-align: right;
-}
-.menu-bar .navbar-toggler {
-    border: none!important;
-    outline: none!important;
-    padding-right: 20px;
-}
-.navbar .fa {
-    font-size: 20px;
-    color: white!important;
-}
-.nav-link:hover{
-    font-weight: 600;
-    border-bottom: 1px solid white;
-    
-}
-/* .navbar-brand img {
-    width: 150px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
-} */
-.navbar-brand {
-    font-size: 25px;
+h3{
+    font-family: 'Montserrat-Bold', sans-serif;
     font-weight: bold;
+}
+p{
+    color: #8f8f8f;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+.nav-link{
     color: white;
-    padding-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar-toggler-icon{
+    color: aliceblue;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-family: Montserrat-Light;
+}
+
+.order-btn{
+    margin: 5% 3% 5% 0;
+    
     
 }
-@media only screen and (max-width: 1000px) {
-    .navbar-link:hover{
-        border-bottom:none!important;
-    }
+.title-image{
+    width: 100%;
+    transform: rotate(-2deg);
+    padding: 14px;
+}
+/* feature row */
+
+.feature-row{
+    
+    padding: 5% 2%;
+    text-align: center;
+    
+}
+.feature-col{
+    padding: 3%;
+}
+.feature-emoji{
+    color:#14C38E;
+    padding: 3%;
+    width: 50%;
+}
+.feature-emoji:hover{
+    color: #00FFAB;
 }
