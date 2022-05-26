@@ -67,7 +67,7 @@ p{
     width: 100%;
     transform: rotate(-2deg);
     padding: 14px;
-    /* position: absolute; */
+    position: absolute;
 }
 /* feature row */
 
@@ -97,12 +97,12 @@ p{
     background-color: #00FFAB;
     color: #fff;
 }
-.testiomonial-image{
+.testimonial-image{
        width: 20%; 
        border-radius: 100%;
        margin: 20px;
-
 }
+
 .carousel-item{
     padding: 7% 15%;
 }
@@ -132,4 +132,38 @@ p{
 }
 .pricing-col{
     padding: 3.5% 1% 0% 1%;
+}
+/* CTA Section */
+#cta{
+    padding: 3% 5%;
+    text-align: center;
+    background-color:#14C38E;
+    color: #fff;
+}
+/* footer */
+#footer{
+    padding: 1.5% 1.5%;
+    text-align: center;
+    background-color: #fff;
+    color: #fff;
+}
+.footer-emoji{
+    color: black;
+    margin: 20px 10px;
+    
+}
+.footer-emoji:hover{
+    color: #00FFAB;
+}
+@media screen and (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+        
+    }
+}
+    
 }
